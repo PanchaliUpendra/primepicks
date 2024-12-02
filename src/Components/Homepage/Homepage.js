@@ -108,7 +108,7 @@ function Homepage(){
                                 <p>iPhone 14 Series</p>
                             </div>
                             <h1>Up to 10% off Voucher</h1>
-                            <div className='shop-now-arrow'>
+                            <div className='shop-now-arrow' onClick={()=>navigate('/products')}>
                                 <p>Shop Now</p>
                                 <img src={rightarrow} alt='rightarrow' className='rightarrow-header'/>
                             </div>
@@ -119,7 +119,7 @@ function Homepage(){
                                 <p>Female Collection</p>
                             </div>
                             <h1>Up to 10% off Voucher</h1>
-                            <div className='shop-now-arrow'>
+                            <div className='shop-now-arrow' onClick={()=>navigate('/products')}>
                                 <p>Shop Now</p>
                                 <img src={rightarrow} alt='rightarrow' className='rightarrow-header'/>
                             </div>
@@ -130,7 +130,7 @@ function Homepage(){
                                 <p>Laptops</p>
                             </div>
                             <h1>Up to 10% off Voucher</h1>
-                            <div className='shop-now-arrow'>
+                            <div className='shop-now-arrow' onClick={()=>navigate('/products')}>
                                 <p>Shop Now</p>
                                 <img src={rightarrow} alt='rightarrow' className='rightarrow-header'/>
                             </div>
@@ -141,7 +141,7 @@ function Homepage(){
                                 <p>Male Collection</p>
                             </div>
                             <h1>Up to 10% off Voucher</h1>
-                            <div className='shop-now-arrow'>
+                            <div className='shop-now-arrow' onClick={()=>navigate('/products')}>
                                 <p>Shop Now</p>
                                 <img src={rightarrow} alt='rightarrow' className='rightarrow-header'/>
                             </div>
@@ -182,7 +182,7 @@ function Homepage(){
                             </div>
                             <div>
                             <h1>{item.name}</h1>
-                            <p>${item.price}</p>
+                            <p style={{color:'#DB4444'}}>${item.price}</p>
                             <h3>{item.stars}<img src={stars} alt='stfarts' className='stars-icon-img'/></h3>
                             </div>
                         </div>

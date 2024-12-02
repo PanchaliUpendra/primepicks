@@ -15,7 +15,7 @@
     height:auto; 
     position: relative;
     overflow: hidden;
-    background-color: aqua;
+    background-color: white;
     
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@
 
 .login-form>button{
     border-radius: 4px;
-    background: var(--Button2, #DB4444);
+    background: var(--Button2, #8E44AD);
     color: white;
     width: 100%;
     border: none;
@@ -84,7 +84,7 @@
 }
 
 .login-form>button:hover{
-    background-color: #cf2b2b;
+    background-color: #70338a;
     cursor: pointer;
 }
 .login-form>p{

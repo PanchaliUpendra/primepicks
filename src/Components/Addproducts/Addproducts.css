@@ -101,7 +101,7 @@
     border-radius: 2px;
     border: none;
     margin-top: 30px;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
@@ -116,7 +116,7 @@
 }
 
 .addproducts-choose-img-div>button{
-    background-color: #DB4444;
+    background-color: #8E44AD;
     color: white;
     padding: 5px 10px;
     border-radius: 4px;

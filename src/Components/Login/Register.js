@@ -50,7 +50,8 @@ function Register(){
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                console.log('her4e is the code and error',errorCode,errorMessage);
+                console.log('here is the code and error',errorCode,errorMessage);
+                alert(errorCode);
                 // ..
             });
         }else{
@@ -58,6 +59,7 @@ function Register(){
         }
     }catch(e){
         console.error('you got error while register',e);
+        alert('you got error while register');
     }
         
     }
@@ -94,9 +96,11 @@ function Register(){
                 // The AuthCredential type that was used.
                 const credential = GoogleAuthProvider.credentialFromError(error);
                 console.log('the error code are',errorCode,errorMessage,email,credential);
+                alert(errorCode);
             });
         }catch(e){
             console.error('you got error while registering with google',e);
+            alert('you got error while registering with google');
         }
                 
     }

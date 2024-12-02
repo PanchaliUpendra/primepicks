@@ -69,7 +69,7 @@ function Navbar(){
     return(
         <>
             <div className='nav-con'>
-                <h1 onClick={()=>navigate('/')}>Exclusive</h1>
+                <h1 onClick={()=>navigate('/')}>PrimePicks</h1>
                 <ul>
                     <NavLink to='/' activeClassName='active'><li>Home</li></NavLink>
                     <NavLink to='/products' activeClassName='active'><li>products</li></NavLink>

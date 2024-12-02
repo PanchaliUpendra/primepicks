@@ -41,9 +41,13 @@ function Usersqueries(){
                     <div className='usersquer-all-divs'>
                         {contacts.map((item,idx)=>(
                             <div key={idx} className='usersqu-each1'>
-                                <p><span>email:</span>{item.email}, <span>Phone:</span> {item.phone}</p>
-                                <p><span>name:</span>{item.name}, <span>submituser:</span> {item.submitname}</p>
-                                <h1><span>message:</span> {item.message}</h1>
+                                <div className='usersqu-each1-one'>
+                                    <p><span>email:</span>{item.email}, <span>Phone:</span> {item.phone}</p>
+                                    <p><span>name:</span>{item.name}, <span>submituser:</span> {item.submitname}</p>
+                                    <h1>message:</h1>
+                                    <p>{item.message}</p>
+                                </div>
+                                
                                 <button onClick={()=>handledeletemessage(idx)}>Delete</button>
                             </div>
                         ))}

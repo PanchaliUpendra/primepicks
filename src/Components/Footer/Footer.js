@@ -6,13 +6,13 @@ function Footer(){
         <>
             <div className="footer-con">
                 <div>
-                <h1>Exclusive</h1>
+                <h1>PrimePicks</h1>
                 <p>Subscribe</p>
                 </div>
                 <div>
                 <h1>Support</h1>
                 <p>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</p>
-                <p>exclusive@gmail.com</p>
+                <p>PrimePicks@gmail.com</p>
                 <p>+88015-88888-9999</p>
                 </div>
                 <div>

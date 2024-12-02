@@ -92,7 +92,7 @@ function Myorders(){
                                 <th>Modifications</th>
                             </tr>
                             {
-                                sharedvalue.myorders.map((item,idx)=>(
+                                sharedvalue.myorders.filter((citem)=>citem.status!=='success').map((item,idx)=>(
                                     <tr className={item.status==="pending"?"myorders-rows-pending":item.status==="success"?"myorders-rows-success":"myorders-rows-cancel"} key={idx}>
                                         <td>
                                             {item.items.map((prod,idx)=>(

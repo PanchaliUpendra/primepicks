@@ -110,12 +110,12 @@
     font-weight: 400;
     margin-top: 15px;
     border: none;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     border-radius: 4px;
 }
 
 .checkout-bill-con>button:hover{
-    background-color: #cf0404;
+    background-color: #802fa3;
     cursor: pointer;
 }
 

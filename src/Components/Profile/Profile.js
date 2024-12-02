@@ -9,7 +9,7 @@ function Profile(){
         name:sharedvalue.usr.profile.name,
         email:sharedvalue.usr.profile.email,
         phone:sharedvalue.mobile,
-        address:'xx xxx xxx'
+        address:''
     })
 
     useEffect(()=>{
@@ -47,7 +47,7 @@ function Profile(){
                             </div>
                             <div className='profile-edivs1-each'>
                                 <h2>address</h2>
-                                <input type='text' value={prodata.address}/>
+                                <input type='text' placeholder='Add your Address...' value={prodata.address}/>
                             </div>
                         </div>
                         {/* middle buttons are require here */}

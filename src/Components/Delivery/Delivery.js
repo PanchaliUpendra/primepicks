@@ -10,9 +10,7 @@ function Delivery(){
     const sharedvalue = useContext(Mycontext);
     const sfDocRef = doc(db, "orders", "iR5iYFyLYB3T4ZeQMwA4");
     const batch = writeBatch(db);
-    const [allorders,setallorders]=useState({
-        orders:[],
-    });
+    const [allorders,setallorders]=useState([]);
 
     async function handlecancel(id,iuid){
         try {
@@ -84,7 +82,9 @@ function Delivery(){
 
     useEffect(()=>{
         const devpro = onSnapshot(doc(db, "orders", "iR5iYFyLYB3T4ZeQMwA4"), (doc) => {
-            setallorders(doc.data());
+            const resData = doc.data();
+            console.log('here is the fetched data: ',resData.orders);
+            setallorders(resData.orders);
         });
         return ()=>devpro();
     },[]);
@@ -95,21 +95,26 @@ function Delivery(){
                         <p>Home / <span>Delivery</span></p>
                 </div>
                 {
-                    allorders.orders.length===0?
+                    allorders.length===0?
                     <div className='wishlist-emptycart-img'>
                         <img src={emptycart} alt="emptycart"/>
                     </div>
                     :
                     <div className='myorders-inner-con'>
                         <table>
-                            <tr>
-                                <th>Products</th>
-                                <th>Status</th>
-                                <th>Modifications</th>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <th>Products</th>
+                                    <th>Status</th>
+                                    <th>Modifications</th>
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
                             {
-                                allorders.orders.map((item,idx)=>(
-                                    <tr className={item.status==="pending"?"myorders-rows-pending":item.status==="success"?"myorders-rows-success":"myorders-rows-cancel"}>
+                                allorders.length>0 && 
+                                allorders.filter((citem)=>citem.status!=='cancel').map((item,idx)=>(
+                                    <tr key={idx} className={item.status==="pending"?"myorders-rows-pending":item.status==="success"?"myorders-rows-success":"myorders-rows-cancel"}>
                                         <td>
                                             {item.items.map((prod,idx)=>(
                                                 <div key={idx} className='myorders-table-each-row'>
@@ -127,6 +132,8 @@ function Delivery(){
                                     </tr>
                                 ))
                             }
+                            </tbody>
+                           
                         </table>
                     </div>
                 }

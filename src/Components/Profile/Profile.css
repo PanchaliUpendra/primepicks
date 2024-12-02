@@ -9,7 +9,7 @@
 }
 
 .profile-edit-header>h1{
-    color: var(--Secondary-2, #DB4444);
+    color: var(--Secondary-2, #8E44AD);
     font-family: Poppins;
     font-size: 1.3rem;
     font-style: normal;
@@ -98,7 +98,7 @@
 .profile-middle-btns button:nth-child(2){
     padding: 10px 20px;
     border: none;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     color: white;
     border-radius: 4px;
     font-size: 1.1rem;
@@ -108,7 +108,7 @@
 }
 
 .profile-middle-btns button:nth-child(2):hover{
-    background-color: #da1f1f;
+    background-color: #651786;
 }
 
 .profile-chg-pwd{

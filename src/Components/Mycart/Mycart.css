@@ -22,9 +22,9 @@
 }
 
 .mycart-product-table table thead tr th{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1.2px;
 }
 
@@ -136,7 +136,7 @@
     height: 40px;
     text-align: center;
     border-radius: 4px;
-    background: var(--Button2, #DB4444);
+    background: var(--Button2, #8E44AD);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -152,7 +152,7 @@
     height: 40px;
     text-align: center;
     border-radius: 4px;
-    background: var(--Button2, #DB4444);
+    background: var(--Button2, #8E44AD);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -205,7 +205,7 @@
     height: 40px;
     border: none;
     color: white;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -327,7 +327,7 @@
     cursor: pointer;
 }
 .viewproduct-each-product-header-name-part2>div p{
-    background-color: #DB4444;
+    background-color: #8E44AD;
     border: none;
     color: white;
     font-weight: 500;
@@ -343,7 +343,7 @@
     width: 250px;
     height: 50px;
     color: white;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     font-family: inter;
     font-weight: 500;
     font-size: 1.1rem;

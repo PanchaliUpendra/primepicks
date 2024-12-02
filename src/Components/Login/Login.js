@@ -31,6 +31,7 @@ function Login(){
               const errorCode = error.code;
               const errorMessage = error.message;
               console.log('errorcode,errormsg',errorCode,errorMessage);
+              alert(errorCode);
             });
             }else{
                 alert('please fill the form');
@@ -80,7 +81,7 @@ function Login(){
                     <img src={Registerimg} alt="register-logo" className='register-img-con'/>
                 </div>
                 <div className='login-form'>
-                    <h1>Log in to Exclusive</h1>
+                    <h1>Log in to PrimePicks</h1>
                     <h3>Enter your details below</h3>
                     
                     <div>

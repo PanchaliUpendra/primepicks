@@ -30,13 +30,11 @@ function About(){
             <div className="about-first-div">
                 <div className="about-first-first">
                     <h1>Our Story</h1>
-                    <p>Launced in 2015, Exclusive is South Asia’s premier online shopping 
-                    makterplace with an active presense in Bangladesh. Supported by wide range 
-                    of tailored marketing, data and service solutions, Exclusive has 10,500 sallers 
-                    and 300 brands and serves 3 millioons customers across the region. </p>
+                    <p>Launched in 2013, PrimePicks is South Asia’s premier online shopping marketplace with an active 
+                        presence in Bangladesh. Supported by a wide range of tailored marketing, data, and service solutions, 
+                        PrimePicks has 10,500 sellers and 300 brands, serving 3 million customers across the region.</p>
                     <p>
-                    Exclusive has more than 1 Million products to offer, growing at a very fast. 
-                    Exclusive offers a diverse assotment in categories ranging  from consumer.
+                    PrimePicks has more than 1 million products to offer, growing at a very fast pace. PrimePicks offers a diverse assortment in categories ranging from consumer goods to lifestyle products.
                     </p>
                 </div>
                 <div>
@@ -48,12 +46,12 @@ function About(){
                 <div>
                     <img src={Aboutk1} alt="aboutk1"/>
                     <h1>10.5k </h1>
-                    <p>Sallers active our site</p>
+                    <p>Sellers active our site</p>
                 </div>
                 <div>
                     <img src={Aboutk2} alt="aboutk1"/>
                     <h1>33k</h1>
-                    <p>Mopnthly Produduct Sale</p>
+                    <p>Monthly Product Sale</p>
                 </div>
                 <div>
                     <img src={Aboutk3} alt="aboutk1"/>
@@ -63,7 +61,7 @@ function About(){
                 <div>
                     <img src={Aboutk4} alt="aboutk1"/>
                     <h1>25k</h1>
-                    <p>Anual gross sale in our site</p>
+                    <p>Annual gross sale in our site</p>
                 </div>
             </div>
             {/* about swiper images */}

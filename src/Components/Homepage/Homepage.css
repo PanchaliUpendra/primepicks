@@ -117,7 +117,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     color: white;
     padding: 5px 10px;
     font-size: 1rem;
@@ -133,7 +133,7 @@
     justify-content: center;
     align-items: center;
     border: none;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     color: white;
     padding: 5px 10px;
     font-size: 1rem;
@@ -146,7 +146,7 @@
 }
 
 .homepage-flash-shopo-now>button:hover{
-    background-color: #ce0808;
+    background-color: #5a2172;
 }
 
 .homepage-cur-scon>ul{
@@ -187,12 +187,12 @@
 .homepage-feat-head>div{
     width: 25px;
     height: 40px;
-    background-color: #DB4444;
+    background-color: #8E44AD;
     border-radius: 4px;
 }
 
 .homepage-feat-head>h1{
-    color: #DB4444;
+    color: #8E44AD;
     font-family: Poppins;
     font-size: 1.1rem;
     font-style: normal;
@@ -324,9 +324,9 @@
 
 .browse-by-cate-div-part>div:hover{
     border-radius: 4px;
-    background: var(--Secondary-2, #DB4444);
+    background: var(--Secondary-2, #8E44AD);
     box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
-    border: #DB4444;
+    border: #8E44AD;
     cursor: pointer;
 }
 
@@ -402,7 +402,7 @@
 }
 
 .flash-items-each-card p{
-    color: var(--Secondary-2, #DB4444);
+    color: var(--Secondary-2, #8E44AD);
 /* Title/16PX Medium */
     font-family: Poppins;
     font-size: 1rem;
