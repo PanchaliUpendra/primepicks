@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+.usersquer-con{
+    min-height: 60vh;
+}
+
+
+.usersquer-all-divs{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.usersqu-each1{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.usersqu-each1>p{
+    font-size: 1.1rem;
+    font-family: poppins;
+    font-weight: 500;
+    color: gray;
+}
+
+.usersqu-each1>p span{
+    color: black;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+.usersqu-each1>h1{
+    font-family: inter;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.usersqu-each1>h1 span{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    font-family: poppins;
+}
+
+
+.usersqu-each1>button{
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-family: poppins;
+    font-weight: 600;
+    background-color: rgba(254, 107, 107, 0.2);
+    cursor: pointer;
+}
+
+.products-type-images{
+    margin-bottom: 20px;
+}
+.products-type-images>div{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    box-shadow: -8px 30px 85px -66px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.products-type-images>div:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.products-type-images>div img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    /* object-fit: contain; */
+    
+}
+.products-type-images>div img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.products-type-images>div button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    z-index: 9;
+    border: none;
+    min-height: 40px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.products-type-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.products-type-cat{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.subcat-header{
+    text-align: center;
+    font-family: quicksand;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.subcat-all-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.subcat-all-btns>button{
+    padding: 10px 20px;
+    border: none;
+    font-family: quicksand;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.subcat-all-btns button:hover{
+    background-color: white;
+}

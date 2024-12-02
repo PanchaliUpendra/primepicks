@@ -1,0 +1,402 @@
+
+.mycart-product-table{
+    min-height: 50vh;
+}
+.mycart-product-table table{
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+    border: none;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+.mycart-product-table table thead tr{
+    height: 50px;
+    border-radius: 4px;
+    background: var(--Primary, #FFF);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-bottom: 2px;
+}
+
+.mycart-product-table table thead tr th{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.mycart-product-table table tbody tr:nth-child(even){
+    height: 60px;
+    border-radius: 4px;
+    background: var(--Primary, #FFF);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-bottom: 2px;
+
+}
+
+.mycart-product-table table tbody tr:nth-child(odd){
+    height: 60px;
+    border-radius: 4px;
+    background: var(--Primary, #f6f6f6f5);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-bottom: 2px;
+}
+
+.mycart-product-table table tr{
+    text-align: center;
+}
+
+.mycart-product-table table tbody tr td{
+    border-spacing: none;
+}
+
+.mycart-product-table table tbody tr td{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.mycart-image-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.mycart-image-product>img{
+    width: auto;
+    height: 50px;
+}
+
+.final-td-intr{
+    color: red;
+    cursor: pointer;
+}
+
+.final-td-intr:hover{
+    color: rgb(211, 1, 1);
+}
+
+.mycart-qty-input-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.mycart-qty-input-div>input{
+    border: 1px solid black;
+    height: 35px;
+    width: 60px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.mycart-qty-input-div>input:focus{
+    outline: none;
+}
+
+.mycart-savedata-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+.mycart-savedata-con-div1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mycart-savedata-con-div1>input{
+    border-radius: 4px;
+    border: 1px solid #000;
+    height: 40px;
+    width: 200px;
+    padding-left: 5px;
+}
+
+.mycart-savedata-con-div1>div{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--Button2, #DB4444);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+.mycart-savedata-con-div2>button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    background: var(--Button2, #DB4444);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+
+}
+.mycart-step-bills{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.mycart-first-step-bill{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.mycart-first-step-bill>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 55px;
+}
+
+.mycart-first-step-bill>div p{
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mycart-first-step-bill>section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mycart-first-step-bill>section button{
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #DB4444;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.viewproduct-each-one-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.viewproduct-each-one-con-img-div{
+    width: 400px;
+    height: 400px;
+}
+
+.viewproduct-each-one-con-img-div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.viewproduct-each-one-con-img-div-line2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.viewproduct-each-product-header-name>h1{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+
+}
+
+.viewproduct-each-product-header-name>h2{
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.72px;
+}
+
+
+.viewproduct-each-product-header-name>p{
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+    letter-spacing: 0.72px;
+    width: 500px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.viewproduct-each-one-con-img-div-line2>img{
+    width:20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+
+
+.viewproduct-each-one-con-img-div-line2 p:nth-child(3){
+    margin-left: 5px;
+    margin-right: 5px;
+    color: gray;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.viewproduct-each-one-con-img-div-line2 p:nth-child(4){
+    color: rgb(75, 124, 1);
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.viewproduct-each-product-header-name-part2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.viewproduct-each-product-header-name-part2>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.viewproduct-each-product-header-name-part2>div p{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.viewproduct-each-product-header-name-part2>div p{
+    background-color: #DB4444;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.viewproduct-each-product-header-name-part2>div input{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+.viewproduct-each-product-header-name-part2 div:nth-child(2){
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #DB4444;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.homepage-feat-head-kali{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.viewproduct-each-one-con{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.viewproduct-freedelivery-return{
+    width: 450px;
+    border: 1px solid black;
+    
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.viewproduct-freedelivery-return>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.viewproduct-freedelivery-return>div p:nth-child(1){
+    font-size: 1.1rem;
+    font-family: inter;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.viewproduct-freedelivery-return>div p:nth-child(2){
+    color: gray;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px){
+    .mycart-product-table table{
+        width: 95%;
+    }
+}

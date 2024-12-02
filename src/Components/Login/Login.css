@@ -1,0 +1,145 @@
+.login-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 50px;
+    user-select: none;
+}
+.login-img-con{
+    width: 1fr; 
+    height:auto; 
+    position: relative;
+    overflow: hidden;
+    background-color: aqua;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-img-con{
+    width: 100%;
+    height: 100%;
+}
+.login-form{
+    width: 400px;
+    user-select: none;
+}
+
+.login-form>h1{
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.44px
+}
+
+.login-form>h3{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.login-form>div{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-form>div input{
+    width: 100%;
+    height: 40px;
+    padding:5px;
+    border: 1px solid gray;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    font-size: 1.1rem;
+    
+}
+
+.login-form>div input:focus{
+    outline: none;
+}
+
+.login-form>button{
+    border-radius: 4px;
+    background: var(--Button2, #DB4444);
+    color: white;
+    width: 100%;
+    border: none;
+    height: 45px;
+    font-size: 1.1rem;
+    font-family: Poppins;
+}
+
+.login-form>button:hover{
+    background-color: #cf2b2b;
+    cursor: pointer;
+}
+.login-form>p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: poppins;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.google-logo{
+    width: 35px;
+    height: auto;
+}
+
+.login-form>section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.login-form>p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:1050.1234px){
+    .login-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-img-con{
+        display: none;
+    }
+}
+
+@media screen and (max-width:420px){
+    .login-form{
+        width: 95%;
+    }
+    .login-form>h1{
+        font-size: 1.6rem;
+    }
+}

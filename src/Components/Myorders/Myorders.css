@@ -1,0 +1,96 @@
+.myorders-inner-con{
+    min-height: 50vh;
+    margin-bottom: 5%;
+}
+
+.myorders-inner-con>table{
+    width: 80%;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+
+
+
+
+
+
+.myorders-inner-con>table tr:nth-child(1){
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    font-size: 1.2rem;
+    font-family: inter;
+    font-weight: 400;
+    
+}
+
+.myorders-table-each-row>img{
+    height: 50px;
+    width: auto;
+}
+
+.myorders-table-each-row>h1{
+    font-size: 1rem;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.myorders-table-each-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.myorders-inner-con>table tr td:nth-child(2){
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight:500 ;
+    text-transform: capitalize;
+}
+
+
+.myorders-inner-con>table tr td:nth-child(3){
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight:500 ;
+    color: red;
+    cursor: pointer;
+}
+
+.myorders-table-row-totalprice{
+    padding-left: 10px;
+    font-family: inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.myorders-rows-pending{
+    background-color: rgba(254, 218, 100,0.5);
+    
+    padding-top: 10px;
+}
+
+.myorders-rows-success{
+    background-color: rgba(128, 254, 100, 0.5);
+    padding-top: 10px;
+}
+
+.myorders-rows-cancel{
+    background-color: rgba(254, 141, 100, 0.5);
+    padding-top: 10px;
+}
+
+.myorders-para-feedback{
+    color: blue;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}

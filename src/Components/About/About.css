@@ -1,0 +1,234 @@
+.about-path{
+    margin-top: 4%;
+    margin-bottom:30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-path>p{
+    font-size: 1rem;
+    font-family: poppins;
+    font-weight: 400;
+    color: grey;
+}
+
+.about-path>p span{
+    color: black;
+}
+
+/* css about for aboput first div */
+
+.about-first-div{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.about-first-img{
+    width: 100%;
+    height: auto;
+}
+
+.about-first-first>h1{
+    color: black;
+    font-size: 2.3rem;
+    font-family: poppins;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about-first-first>p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: poppins;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* about first div completed*/
+
+.about-free-delivery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 20px;
+    user-select: none;
+}
+.about-free-delivery>div{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+.about-free-delivery>div img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.about-free-delivery>div h3{
+    font-size: 1.2rem;
+    font-family: poppins;
+    font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.about-free-delivery>div p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: poppins;
+    text-align: center;
+}
+
+.about-k-amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-k-amount>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    padding: 20px;
+    border-radius: 4px;
+    user-select: none;
+    transition: all 0.4s ease;
+}
+
+.about-k-amount>div img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.about-k-amount>div h1{
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.about-k-amount>div p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: poppins;
+    color: black;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.about-k-amount>div:hover{
+    border-radius: 4px;
+    background: var(--Secondary-2, #DB4444);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+    color: white;
+    border: 1px solid transparent;
+}
+.about-k-amount>div:hover p{
+    color: white;
+}
+
+.about-swiper-img{
+   margin-left: 5%;
+   margin-right: 5%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.about-swiper-img>div{
+    width: 250px;
+    height: auto;
+    margin: auto;
+}
+
+.about-swiper-img>div h1{
+    color: black;
+    font-size: 1.2rem;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.about-swiper-img>div p{
+    font-family: poppins;
+    font-weight: 1rem;
+}
+
+
+@media screen and (max-width:970.1234px){
+    .about-first-img{
+        height: 400px;
+        width: auto;
+    }
+
+    .about-k-amount{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:900.12345px){
+    .about-path{
+        margin-top: 30px;
+    }
+    .about-first-div{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        justify-content:center ;
+        align-items: center;
+    }
+    .about-first-img{
+        width:100%;
+        height:auto;
+        margin: auto;
+    }
+    .about-first-first>h1{
+        font-size: 1.6rem;
+    }
+    .about-first-first>p{
+        font-size: 1rem;
+    }
+    .about-free-delivery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:479.12345px){
+    .about-k-amount>div{
+        width: 90%;
+    }
+    .about-swiper-img>div img{
+        width: 100%;
+        margin: auto;
+    }
+}
+

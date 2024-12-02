@@ -1,0 +1,172 @@
+.profile-whole-edit-card{
+    width: 650px;
+    border-radius: 4px;
+    background: var(--Primary, #FFF);
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.09);
+    padding: 12px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.profile-edit-header>h1{
+    color: var(--Secondary-2, #DB4444);
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.profile-two-divs{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-edivs1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    
+}
+
+.profile-edivs1>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profile-edivs1>div h2{
+    color: var(--Text2, #000);
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.profile-edivs1>div input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background: var(--Secondary, rgba(230, 230, 230,0.6));
+    border: none;
+
+    color: var(--Text2, #545454);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px;
+
+}
+
+.profile-edivs1>div input:focus{
+    outline: none;
+    border: none;
+}
+
+.profile-middle-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.profile-middle-btns button:nth-child(1){
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    font-family: poppins;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.profile-middle-btns button:nth-child(1):hover{
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+.profile-middle-btns button:nth-child(2){
+    padding: 10px 20px;
+    border: none;
+    background-color: #DB4444;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.profile-middle-btns button:nth-child(2):hover{
+    background-color: #da1f1f;
+}
+
+.profile-chg-pwd{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.profile-chg-pwd-e{
+    width: 100%;
+}
+
+.profile-chg-div{
+    margin-top: 20px;
+}
+.profile-chg-div-header>h1{
+    color: var(--Text2, #000);
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.profile-chg-div-header{
+    margin-bottom: 5px;
+}
+
+.profile-chg-pwd-e>input{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background: var(--Secondary, rgba(230, 230, 230,0.6));
+    border: none;
+
+    color: var(--Text2, #545454);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px;
+
+}
+
+
+@media screen and (max-width:660px){
+    .profile-whole-edit-card{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:478.12355px){
+    .profile-edivs1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

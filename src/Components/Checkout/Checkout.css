@@ -1,0 +1,186 @@
+.checkout-con{
+    margin-bottom: 5%;
+    
+}
+.checkout-inner-con{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.checkout-address-form{
+    width: 400px;
+    
+}
+
+.checkout-address-form>h1{
+    color: var(--Text2, #000);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1.44px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.checkout-address-form-first-div>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.checkout-address-form-first-div>div label{
+    opacity: 0.4;
+    color: var(--Text2, #000);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.checkout-address-form-first-div>div input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background: var(--Secondary, #F5F5F5);
+    cursor: text;
+    padding-left: 10px;
+}
+
+.checkout-address-form-first-div>div input:focus{
+    outline: none;
+}
+
+.checkout-bill-con-each-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+}
+
+.checkout-bill-con-each-one>div img{
+    height: 50px;
+    width: auto;
+}
+
+.checkout-bill-con{
+    width: 400px;
+    
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.checkout-bill-con-each-one>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkout-bill-con-each-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.checkout-inner-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+.checkout-bill-con>button{
+    padding: 15px 25px;
+    color: white;
+    font-size: 1.1rem;
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    border: none;
+    background-color: #DB4444;
+    border-radius: 4px;
+}
+
+.checkout-bill-con>button:hover{
+    background-color: #cf0404;
+    cursor: pointer;
+}
+
+.checkout-bill-con-each-two-divs-one{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.checkout-bill-con-each-two-divs-one>p{
+    margin-bottom: 6px;
+}
+
+.checkout-bill-con-each-two{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkout-card-details{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.checkout-card-details>button{
+    width: 100%;
+    border: none;
+    min-height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    font-family: poppins;
+    margin-top: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.checkout-card-details>h1{
+    font-size: 1.3rem;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.checkout-card-details>div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.checkout-card-details>div label{
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.checkout-card-details>div input{
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+}
+
+.checkout-card-details>div input:focus{
+    outline: none;
+}
